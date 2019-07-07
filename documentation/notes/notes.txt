@@ -6,6 +6,13 @@
 ==> set up title
 commit 120b88a2b295aad89db85a7f2336d9abdf3f951a
 
+==> Added bootstrap & comments in <head>
+commit 6bbe6a1df88eb336b252c314f22a12eb5c926006
+
+
+==> Added link to style.css in <head> index.html
+==> Created css file
+==> Added container class to <header>
 
 
 
