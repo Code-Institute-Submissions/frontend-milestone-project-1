@@ -1,6 +1,61 @@
+/* ------------------------------------------ Site wide settings */
+
 html,
 body {
-    margin: 0;
-    padding: 0;
-    width: 100%
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+/* ------------------------------------------ Full width slider */
+.carousel-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+.moving-element img {
+  transform:translateY(-400px); /* pushing img up to bottom slider */
+
+}
+
+
+.moving-element {
+  margin-left: 15vw;
+  position: fixed;
+  top: 600px; /* setting div fixed at normal position */
+
+  /* Standard CSS */
+  animation-name: moving-frans;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+
+  /* Chrome, Safari, Opera */
+  -webkit-animation-name: moving-frans;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+  /* Standard CSS */
+  @keyframes moving-frans {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  /* Chrome, Safari, Opera */
+    @-webkit-keyframes moving-frans {
+    0% {
+    transform: scale(0.1);
+    opacity: 0;
+    }
+    100% {
+    transform: scale(1);
+  }
 }

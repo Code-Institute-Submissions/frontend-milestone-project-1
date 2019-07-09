@@ -11,8 +11,19 @@ commit 6bbe6a1df88eb336b252c314f22a12eb5c926006
 
 
 ==> Added link to style.css in <head> index.html
-==> Created css file
-==> Added container class to <header>
+==> Created style.css file
+==> Added container class to <header> for testing
+commit 2916ec07bd9f0b875914fce1b3cee3579e57a59e
+
+08-07-2019 / 09-07-2019
+==> Added animate.css from https://daneden.github.io/animate.css/
+==> Added link in index.html to animate.css
+==> Created Bootstrap carousel with 3 slides
+==> Added carousel's images and logo for header
+==> Coded caroussel's custom styling for animation 'moving-frans'
+==> Formatted html index.html with html beautifier DirtyMarkup
+==> Added comments to index.html and style.css
+
 
 
 
