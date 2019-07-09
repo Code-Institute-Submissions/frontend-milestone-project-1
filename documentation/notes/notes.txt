@@ -23,6 +23,12 @@ commit 2916ec07bd9f0b875914fce1b3cee3579e57a59e
 ==> Coded caroussel's custom styling for animation 'moving-frans'
 ==> Formatted html index.html with html beautifier DirtyMarkup
 ==> Added comments to index.html and style.css
+commit 7fba1d9627ebcddf8df25a7481b0de9435ef59c6
+
+
+09-07-2019
+==> Coded css carousel-caption first slide
+==> Modified carousel-caption in index.html according to bootstrap
 
 
 

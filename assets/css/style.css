@@ -7,8 +7,23 @@ body {
   width: 100%;
 }
 
+/* ------------------------------------------ Site wide colors */
+.font-color-red {
+  color: #f44336;
+}
 
-/* ------------------------------------------ Full width slider */
+.font-color-white {
+  color: #fafafa;
+}
+
+.font-color-grey {
+  color: #616161;
+}
+
+
+
+
+/* ------------------------------------------ Full width carousel */
 .carousel-container {
   margin: 0;
   padding: 0;
@@ -17,7 +32,7 @@ body {
 
 
 .moving-element img {
-  transform:translateY(-400px); /* pushing img up to bottom slider */
+  transform:translateY(-400px); /* pushing img up to bottom carousel */
 
 }
 
@@ -59,3 +74,20 @@ body {
     transform: scale(1);
   }
 }
+
+.carousel-caption {
+  padding-bottom: 300px;
+  padding-left: 25%;
+}
+
+.carousel-caption 
+h2,
+h3 {
+  text-align: left;
+}
+
+
+.carousel-caption mark {
+  background-color: #fafafa; 
+}
+
