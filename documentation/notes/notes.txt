@@ -29,6 +29,10 @@ commit 7fba1d9627ebcddf8df25a7481b0de9435ef59c6
 09-07-2019
 ==> Coded css carousel-caption first slide
 ==> Modified carousel-caption in index.html according to bootstrap
+commit aa3df043c65647604bc2431146d17145a8aa3fc9
+
+==> Added spotify logo
+==> to do: media queries for carousel-caption
 
 
 

@@ -30,7 +30,12 @@ body {
   width: 100%;
 }
 
+.spotify-element {
+  margin-left: 54vw;
+  position: fixed;
+  top: 400px; /* setting div fixed at normal position */
 
+}
 .moving-element img {
   transform:translateY(-400px); /* pushing img up to bottom carousel */
 
