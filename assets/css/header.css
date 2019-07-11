@@ -1,0 +1,159 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.4;
+}
+
+
+/* ------------------------------------------ site wide colors */
+.font-color-red {
+  color: #f44336;
+}
+
+.font-color-white {
+  color: #fafafa;
+}
+
+.font-color-grey {
+  color: #616161;
+}
+
+
+
+/* ------------------------------------------ header */
+
+.container-header {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* ------------------------------------------ navbar */
+
+.navbar {
+  letter-spacing: 2px;
+}
+
+.navbar-text {
+  letter-spacing: 2px;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+  color: #fafafa;
+}
+
+
+
+/* ------------------------------------------ carousel */
+
+.mark-white {
+  background-color: #fafafa;
+}
+
+.mark-black {
+  background-color: #090c17;
+}
+
+
+
+.carousel-item img {
+  height: 90vh; /* set height for all devices */
+  object-fit: cover;
+}
+
+
+
+
+
+
+.carousel-caption h3 {
+
+text-align: left;
+
+}
+
+.carousel-caption p {
+  text-align: left;
+
+
+}
+
+
+/* ------------------------------------------ media queries */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .carousel-caption h3 {
+      font-size: 1.7em;
+      margin: 0;
+      letter-spacing: 2px;
+
+
+  }
+
+  .carousel-caption p {
+      font-size: 1.2em;
+      letter-spacing: 2px;
+
+
+  }
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .carousel-caption h3 {
+      font-size: 3.5em;
+      line-height: 1.2;
+  }
+
+  .carousel-caption p {
+      font-size: 2.5em;
+
+  }
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+.carousel-caption {
+  left: 10%;
+}
+
+  .carousel-caption h3 {
+    font-size: 4em;
+    line-height: 2;
+
+
+}
+
+.carousel-caption p {
+    font-size: 3em;
+
+
+}
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+
+
+  .carousel-caption h3 {
+      font-size: 4em;
+      line-height: 2;
+
+
+  }
+
+  .carousel-caption p {
+      font-size: 3em;
+
+
+  }
+ }

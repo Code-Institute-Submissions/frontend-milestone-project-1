@@ -33,6 +33,14 @@ commit aa3df043c65647604bc2431146d17145a8aa3fc9
 
 ==> Added spotify logo
 ==> to do: media queries for carousel-caption
+commit 83562a5b51ec0eaa6d9529be665caeb2290e688e
+
+11-07-2019
+==> Will create functionalities in seperate files in order to test more easily
+==> Added bootstrap navigation (will dive into carousel with later on)
+==> Created letterspacing, modified colors navigation, added logo and inline element (text)
+
+
 
 
 
