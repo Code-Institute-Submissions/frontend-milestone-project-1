@@ -39,6 +39,13 @@ commit 83562a5b51ec0eaa6d9529be665caeb2290e688e
 ==> Will create functionalities in seperate files in order to test more easily
 ==> Added bootstrap navigation (will dive into carousel with later on)
 ==> Created letterspacing, modified colors navigation, added logo and inline element (text)
+commit 148ae811d63708e2b53871a61ce8a561d4f653e5
+
+12-07-2019
+==> lesson learned: concentrate on what I am supposed to do instead of what I can do. A fancy 
+carousel with animation was not in the wireframe. Also from SEO perspective not handy, because of 
+missing either <h1> or having duplicates which is not a good idea as well.
+==> added new functionality; soundcloud player and spotifify follow widget.
 
 
 
