@@ -55,6 +55,10 @@ commit fbded9d6067025f21f062ab2da5d313789d02c5e
 
 13-07-2019
 ==> added videos.html and videos.html
+commit 602dae6aedf09be14f534946c84f6f74d7665b72
+
+13-07-2019
+==> Added bio section bio.html. Blocked bg image for smaller screen sizes than lg
 
 
 
