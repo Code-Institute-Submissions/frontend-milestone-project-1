@@ -46,6 +46,12 @@ commit 148ae811d63708e2b53871a61ce8a561d4f653e5
 carousel with animation was not in the wireframe. Also from SEO perspective not handy, because of 
 missing either <h1> or having duplicates which is not a good idea as well.
 ==> added new functionality; soundcloud player and spotifify follow widget.
+commit 56715a870e580f621e6b71a0513f75d59d8489ad
+
+13-07-2019  
+==> added comments to audio.html
+==> Centered audio widgets in audio.html and modified audio.css to look good on all devices (mx-auto and flex)
+
 
 
 
