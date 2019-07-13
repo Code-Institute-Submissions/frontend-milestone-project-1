@@ -51,7 +51,10 @@ commit 56715a870e580f621e6b71a0513f75d59d8489ad
 13-07-2019  
 ==> added comments to audio.html
 ==> Centered audio widgets in audio.html and modified audio.css to look good on all devices (mx-auto and flex)
+commit fbded9d6067025f21f062ab2da5d313789d02c5e
 
+13-07-2019
+==> added videos.html and videos.html
 
 
 
