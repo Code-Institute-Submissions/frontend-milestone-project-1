@@ -89,6 +89,13 @@ commit 247234f0b99c59e0a96c56adf1120d2695fdf7d8
 14-07-2019
 ==> Added event structure
 ==> Modified some css to be consistent
+==> Cleaned up html
+commit 0afe7cc2d248dec12d2730fa71aaf96b966b48db
+
+14-07-2019
+==> Customized event calendar
+==> Added bg image event section (need to work on responsiveness)
+
 
 
 

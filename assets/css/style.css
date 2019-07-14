@@ -201,7 +201,7 @@ html, body {
 
 /* ------------------------------------------ events */
 
-.container-events {
+.container-event {
   background-color: #fafafa;
   margin-top: 5%;
 }
@@ -209,6 +209,38 @@ html, body {
 .col-event-title {
   margin: 10px 0;
 }
+
+.row-striped:nth-of-type(odd){
+  background-color: #efefef;
+  border-left: 4px #000000 solid;
+}
+
+.row-striped:nth-of-type(even){
+  background-color: #fafafa;
+  border-left: 4px #efefef solid;
+}
+
+.row-striped {
+    padding: 15px 0;
+}
+
+.event-info ul, p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    
+}
+
+.bg-image-event {
+    background-image: url("../images/lange-frans-on-stage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    
+}
+
+
 
 /* ------------------------------------------ media queries */
 
