@@ -68,7 +68,9 @@ commit 661cf53f06779a228a5fe00cd30758a67a507563
 ==> Added animation to title and subtitle
 ==> Added overflow-x: hidden to css to prevend white space at right on smaller devices. 
 Credits to Rion Williams: https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend.
+commit 382f600428276dea53a23347ccc8931be1a03516
 
 
-
-
+14-07-2019
+==> Cleaned html with DirtyMarkup.
+==> Added media queries to work on all devices
