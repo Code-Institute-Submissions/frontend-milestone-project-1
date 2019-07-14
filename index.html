@@ -13,80 +13,108 @@
     <!-- Animate.css CSS -->
     <link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
 
-    <title>Lange Frans | rapper & tv-presentator - offici&euml;le website</title>
+    <title>Lange Frans&reg; | rapper &#38; tv-presentator - offici&euml;le website</title>
 </head>
 <body>
-
-    <!-- start header -->
-
+    
+    <!-- start navigation and header -->
     <header>
-    	<!-- start full width Bootstrap carousel -->
-
-    	<div class="container-fluid carousel-container">
-    		<div class="carousel slide" data-ride="carousel" id="carousel-header">
-    			<ol class="carousel-indicators">
-    				<li class="active" data-slide-to="0" data-target="#carousel-header">
-    				</li>
-
-    				<li data-slide-to="1" data-target="#carousel-header">
-    				</li>
-
-    				<li data-slide-to="2" data-target="#carousel-header">
-    				</li>
-    			</ol>
-
-    			<div class="carousel-inner">
-    				<div class="carousel-item active">
-    					<img alt="Nieuwe single: Speciaal" class="d-block w-100 img-fluid" src="assets/images/bg-black-header-slide.jpg" style="max-height: 600px">
-
-    					<div class="spotify-element"><img alt="Spotify logo" class="d-block" src="assets/images/spotify-logo.png">
-    					</div>
-    					
-    					<div class="moving-element"><img alt="Lange Frans" class="d-none d-md-block" src="assets/images/lange-frans-moving-element.png">
-    					</div>
-    					
-    					
-    					
-
-    					<div class="carousel-caption d-block animated bounce">
-    						<h2 class="display-2"><span class="font-color-white">Lange </span><span class="font-color-red font-weight-bold">Frans&reg;.</span></h2><br><br>
-
-
-    						<h3 class="display-4"><mark><span class="font-color-red">Nieuwe single: </span><span class="font-color-red font-weight-bold">Speciaal.</span></mark></h3>
-    					</div>
-    				</div>
-
-
-    				<div class="carousel-item"><img alt="Lange Frans on stage" class="d-block w-100 img-fluid" src="assets/images/lange-frans-slide-on-stage.jpg" style="max-height: 600px">
-    				</div>
-
-
-    				<div class="carousel-item">
-              <img alt="Lange Frans; een veelzijdig artist" class="d-block w-100 img-fluid" src="assets/images/lange-frans-slide-versatile.jpg" style="max-height: 600px">
-    				</div>
+    	<div class="container-fluid container-header">
+    	  
+    		<!-- start bootstrap navbar -->
+    		<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
+    			<a class="navbar-brand" href="index.html"><img alt="Lange Frans logo" height="50" src="assets/images/lange-frans-logo.png" width="50"></a> <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+    			<div class="collapse navbar-collapse" id="navbarNav">
+    				<ul class="navbar-nav mr-auto">
+    					<li class="nav-item active">
+    						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+    					</li>
+    					<li class="nav-item">
+    						<a class="nav-link" href="#bio">Bio</a>
+    					</li>
+    					<li class="nav-item dropdown">
+    						<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button">Evenementen</a>
+    						<div aria-labelledby="navbarDropdown" class="dropdown-menu">
+    							<a class="dropdown-item" href="#agenda">Agenda</a> <a class="dropdown-item" href="#tickets">Tickets kopen</a>
+    						</div>
+    					</li>
+    					<li class="nav-item">
+    						<a class="nav-link" href="#photo">Foto's</a>
+    					</li>
+    					<li class="nav-item">
+    						<a class="nav-link" href="#video">Video's</a>
+    					</li>
+    				</ul><span class="navbar-text">Lange Frans&reg;, rapper en tv-presentator</span>
     			</div>
-    			<a class="carousel-control-prev" data-slide="prev" href="#carousel-header" role="button">
-            <span aria-hidden="true" class="carousel-control-prev-icon"></span>
-            <span class="sr-only">Previous</span></a>
-
-          <a class="carousel-control-next" data-slide="next" href="#carousel-header" role="button">
-            <span aria-hidden="true" class="carousel-control-next-icon"></span>
-            <span class="sr-only">Next</span></a>
+    		</nav>
+    		<!-- end bootstrap navbar -->
+    		
+    		<!-- start header -->
+    		<div class="jumbotron jumbotron-header">
+    			<div class="title-sub-title">
+    				<h1 class="title animated swing"><span class="font-color-white letter-spacing-2">Lange</span> <span class="font-color-red font-weight-bold letter-spacing-2">Frans&reg;.</span></h1>
+    				<p class="sub-title animated jello"><mark class="mark-white"><span class="font-color-red letter-spacing-2">Nieuwe single:</span> <span class="font-color-red font-weight-bold letter-spacing-2">speciaal.</span></mark></p>
+    			</div>
+    			<div class="moving-element"><img alt="Lange Frans" class="d-block" src="assets/images/lange-frans-moving-element.png"></div>
     		</div>
+    		<!-- end end header -->
     	</div>
-    	<!-- end full width carousel -->
     </header>
-    <!-- end header -->
+    <!-- end navigation and header -->
 
     <!-- start videos -->
-    <section>
-        Populaire video's
+    <section id="video">
+        
+    <div class="container-fluid container-video">
+        <div class="row">
+            
+            <div class="col-12 col-video-title"><h2><span class="font-color-grey  letter-spacing-two">Populaire </span><span class="font-color-red font-weight-bold letter-spacing-two">video's.</span></h2>
+            </div>
+        <div class="row mx-auto row-youtube-video">
+            <div class="col-lg-3 mx-auto d-block col-youtube-video"><iframe height="auto" src="https://www.youtube-nocookie.com/embed/nClH3OOsAl8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="col-lg-3 mx-auto d-none d-md-block col-youtube-video"><iframe height="auto" src="https://www.youtube-nocookie.com/embed/bX0wVDeLxJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="col-lg-3 mx-auto d-none d-lg-block col-youtube-video"><iframe height="auto" src="https://www.youtube-nocookie.com/embed/iMVpgdSQhcw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        
+        
+        <div class="col-lg-3 mx-auto d-none d-xl-block col-youtube-video"><iframe height="auto" src="https://www.youtube-nocookie.com/embed/kp7jTsw1hVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        </div>    
+        </div>
+    </div>
+        
     </section>
     <!-- end videos -->
 
     <!-- start bio -->
-    <section>
-        Bio
+    <section id="bio">
+        
+    <div class="container-fluid container-bio">
+        <div class="row">
+            <div class="col-lg-6 d-none d-lg-block bg-image-bio">
+                
+            </div>
+            <div class="col-lg-6 d-block col-bio-title">
+                <h2><span class="font-color-red letter-spacing-2">Bio </span><span class="font-color-white font-weight-bold letter-spacing-2">Lange Frans</span></h2>
+            <div class="row">
+                    <div class="col-lg-12 d-block bg-color-bio">
+                        <p class="font-color-white letter-spacing-one">De bal gaat pas echt rollen als in 2003 de eerste Straatremixes verschijnt. Een mixtape naar Amerikaans model, waarbij bekende beats van nieuwe teksten voorzien worden. De onderwerpen: seks, drugs &amp; rock ‘n roll.<br><br>
+
+
+
+De mentaliteit: je nergens iets van aantrekken. De Straatremixes leidt daarmee de geboorte in van een hele nieuwe generatie toonaangevende rappers. Niet alleen Lange Frans en Baas B, maar ook The Opposites, Brace, Negativ en Yes-R verschijnen op de mixtape.<br><br>
+
+
+
+Zonder de hulp van een label of distributiemaatschappij worden er duizenden exemplaren van de tape door het land verspreid. Deel twee en drie van de Straatremixes slaan zo mogelijk nog meer aan en de driedelige serie staat vandaag de dag nog steeds bekend als de succesvolste Nederlandse mixtape-serie ooit.
+              </p>
+              </div>
+                        
+                </div>
+
+            </div>
+                
+        </div>
+    </div>
+        
     </section>
     <!-- end bio -->
 

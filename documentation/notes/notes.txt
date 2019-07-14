@@ -74,3 +74,16 @@ commit 382f600428276dea53a23347ccc8931be1a03516
 14-07-2019
 ==> Cleaned html with DirtyMarkup.
 ==> Added media queries to work on all devices
+commit 1b88815aec63aa76301cd0554cbcf2fb17341916
+
+
+14-07-2019
+==> Copied code from navigation.html to index.html
+==> Copied css styles from header.css to style.css
+==> Copied video.html into index.html
+==> Copied video.css into style.css
+==> Set bottom margin jumbotron header to 0 to style video / header section
+==> Copied bio.html into index.html and bio.css into style.css. Did some small modifications to style page.
+
+
+

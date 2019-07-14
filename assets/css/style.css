@@ -1,13 +1,14 @@
-/* ------------------------------------------ Site wide settings */
+html, body {
+  font-size: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.4;
+  width:100%;
+  overflow-x:hidden; /* solving white space at right */
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
 }
 
-/* ------------------------------------------ Site wide colors and styling */
+
+/* ------------------------------------------ site wide colors and styling */
 .font-color-red {
   color: #f44336;
 }
@@ -38,30 +39,83 @@ body {
 
 
 
-/* ------------------------------------------ Full width carousel */
-.carousel-container {
+
+/* ------------------------------------------ header */
+
+.container-header {
+  position: relative;
   margin: 0;
   padding: 0;
-  width: 100%;
-}
-
-.spotify-element {
-  margin-left: 54vw;
-  position: fixed;
-  top: 400px; /* setting div fixed at normal position */
+ 
 
 }
+
+/* ------------------------------------------ navbar */
+
+.navbar {
+  letter-spacing: 2px;
+}
+
+.navbar-text {
+  letter-spacing: 2px;
+}
+
+.navbar-custom {
+  background-color:#090c17 !important;
+  border-bottom: 1px solid rgba(255,255,255,.5);
+  
+}
+
+
+
+.navbar-dark .navbar-nav .active>.nav-link {
+  color: #fafafa;
+}
+
+
+/* ------------------------------------------ jumbotron header */
+
+.jumbotron-header {
+  position: relative;
+  background-color: #090c17;
+  border-radius: 0;
+  height: 70vh;
+  margin-bottom: 0;
+}
+
+.title-sub-title {
+  position: absolute;
+  top: 10px;
+  margin: 2% 0 0 6%;
+}
+
+.title {
+  font-size: 1.5em;
+  line-height: 2;
+  
+}
+
+.sub-title {
+  font-size: 1.2em;
+  line-height: 2;
+
+}
+
 .moving-element img {
-  transform:translateY(-400px); /* pushing img up to bottom carousel */
+  margin: 0;
+  padding: 0;
+  height: auto;
+  max-width: 100%;
 
+  
 }
-
 
 .moving-element {
-  margin-left: 15vw;
-  position: fixed;
-  top: 600px; /* setting div fixed at normal position */
-
+  position: absolute;
+  bottom: 0;
+  height: auto;
+  max-width: 100%;
+  
   /* Standard CSS */
   animation-name: moving-frans;
   animation-duration: 3s;
@@ -81,6 +135,7 @@ body {
     }
     100% {
       transform: scale(1);
+      opacity: 1;
     }
   }
 
@@ -92,22 +147,115 @@ body {
     }
     100% {
     transform: scale(1);
+    opacity: 1;
   }
 }
 
-.carousel-caption {
-  padding-bottom: 300px;
-  padding-left: 25%;
-}
+/* ------------------------------------------ videos */
 
-.carousel-caption 
-h2,
-h3 {
-  text-align: left;
+.container-video {
+    background-color: #fafafa;
+    margin-top: 5%;
 }
 
 
-.carousel-caption mark {
-  background-color: #fafafa; 
+.row-youtube-video {
+
+    
 }
 
+.col-youtube-video {
+    width: auto;
+}
+
+.col-video-title {
+  margin: 10px;
+}
+
+
+/* ------------------------------------------ bio */
+
+
+.container-bio {
+    background-color: #101010;
+    margin-top: 5%;
+    
+}
+
+.bg-image-bio {
+    background-image: url("../images/lange-frans-bio-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.col-bio {
+    
+
+}
+
+.col-bio-title {
+  margin: 30px 0;
+}
+
+
+
+/* ------------------------------------------ media queries */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .title-sub-title {
+  margin: 5% 0 0 60%;
+}
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .title-sub-title {
+  margin: 0 0 0 35%;
+}
+.title {
+  font-size: 3.4em;
+  line-height: 1.5;
+}
+.sub-title p {
+  font-size: 2em;
+  line-height: 1.5;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .title-sub-title {
+  margin: 10% 0 0 50%;
+}
+.title {
+  font-size: 4em;
+  line-height: 1.7;
+}
+.sub-title {
+  font-size: 2.3em;
+  line-height: 1.7;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .title-sub-title {
+  margin: 0 0 0 65%;
+}
+
+.moving-element img {
+  width: 550px;
+
+  
+}
+
+.moving-element {
+  max-width: 550px;
+}
+
+
+}
