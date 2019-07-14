@@ -84,6 +84,11 @@ commit 1b88815aec63aa76301cd0554cbcf2fb17341916
 ==> Copied video.css into style.css
 ==> Set bottom margin jumbotron header to 0 to style video / header section
 ==> Copied bio.html into index.html and bio.css into style.css. Did some small modifications to style page.
+commit 247234f0b99c59e0a96c56adf1120d2695fdf7d8
+
+14-07-2019
+==> Added event structure
+==> Modified some css to be consistent
 
 
 
