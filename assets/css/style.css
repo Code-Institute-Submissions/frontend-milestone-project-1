@@ -20,14 +20,21 @@ body {
   color: #616161;
 }
 
-.letter-spacing-one {
+.letter-spacing-1 {
   letter-spacing: 1px;
 }
 
-.letter-spacing-two {
+.letter-spacing-2 {
   letter-spacing: 2px;
 }
 
+.mark-white {
+  background-color: #fafafa;
+}
+
+.mark-black {
+  background-color: #090c17;
+}
 
 
 

@@ -59,8 +59,15 @@ commit 602dae6aedf09be14f534946c84f6f74d7665b72
 
 13-07-2019
 ==> Added bio section bio.html. Blocked bg image for smaller screen sizes than lg
+commit 661cf53f06779a228a5fe00cd30758a67a507563
 
-
+14-07-2019 
+==> Added Jumbotron header to navigation.html
+==> Changed bg bootstrap navigation
+==> Added animation which I coded earlier in index.html
+==> Added animation to title and subtitle
+==> Added overflow-x: hidden to css to prevend white space at right on smaller devices. 
+Credits to Rion Williams: https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend.
 
 
 
