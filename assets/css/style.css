@@ -151,6 +151,32 @@ html, body {
   }
 }
 
+/* ------------------------------------------ audio */
+
+
+
+.soundcloud-audio-player {
+    
+
+}
+
+
+.container-soundcloud-spotify {
+  background-color: #f5f5f5;
+
+}
+
+
+
+.spotify-follow-widget {
+
+    flex: 0 0 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    max-width: 200px;
+    
+}
+
 /* ------------------------------------------ videos */
 
 .container-video {

@@ -95,7 +95,11 @@ commit 0afe7cc2d248dec12d2730fa71aaf96b966b48db
 14-07-2019
 ==> Customized event calendar
 ==> Added bg image event section (need to work on responsiveness)
+commit d20aa27043857c801deca2fc33601e870b90704c
 
+15-07-2019
+==> Cleaned up html code event section
+commit c9b0036eaaee0c66f12a7cc45d7158e2586e0f9d
 
 
 
