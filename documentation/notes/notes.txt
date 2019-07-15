@@ -101,5 +101,11 @@ commit d20aa27043857c801deca2fc33601e870b90704c
 ==> Cleaned up html code event section
 commit c9b0036eaaee0c66f12a7cc45d7158e2586e0f9d
 
+==> Inserted audio code into index.html and style.css (coming from audio.html and audio.css)
+commit 594ed7bb6939a1ba2ff877e27698a1bf7d4ed384
+
+==> Some css styling
+
+
 
 
