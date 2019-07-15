@@ -105,6 +105,14 @@ commit c9b0036eaaee0c66f12a7cc45d7158e2586e0f9d
 commit 594ed7bb6939a1ba2ff877e27698a1bf7d4ed384
 
 ==> Some css styling
+commit 06bb9dfc69789994ee27a7fb90395bb573f443d6
+
+==> css styling event section
+commit b387312366b07460c57eb1bd95e4023394137a2f
+
+==> Fixed bg image event with media queries
+
+
 
 
 
