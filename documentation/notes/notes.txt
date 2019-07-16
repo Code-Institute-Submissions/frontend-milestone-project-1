@@ -119,11 +119,17 @@ commit 8ebe8578941bddf3eb0695162021294f296710e7
 ==> Added photo section, but need to work on it
 commit dd869b82e0e0eb10776d32970705ef114767eff5
 
+16-07-2019
+
 ==> Changed photo section: changed cards into Bootstrap method with img-fluid and img-thumnail due to fact border moves downwards
 while adding margin-bottom with cards
 commit 1b189a71652b4c6ff9325b6bb5d3aa1dbeed39c1
 
 ==> Added footer section and removed dropdown because both links were supposed to be going to the same section.
+commit 5b7baece5de10d9a41212b525f73099ca29ae999
+
+==> Some styling in video section. Will work tomorrow on it further.
+
 
 
 

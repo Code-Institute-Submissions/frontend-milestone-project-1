@@ -190,13 +190,10 @@ html, body {
   padding-top: 10px;
 }
 
-.row-youtube-video {
-  
-    
-}
+
 
 .col-youtube-video {
-    width: auto;
+    max-width: 40vw;
 }
 
 .col-video-title {
