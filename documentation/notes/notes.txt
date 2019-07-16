@@ -121,6 +121,10 @@ commit dd869b82e0e0eb10776d32970705ef114767eff5
 
 ==> Changed photo section: changed cards into Bootstrap method with img-fluid and img-thumnail due to fact border moves downwards
 while adding margin-bottom with cards
+commit 1b189a71652b4c6ff9325b6bb5d3aa1dbeed39c1
+
+==> Added footer section and removed dropdown because both links were supposed to be going to the same section.
+
 
 
 
