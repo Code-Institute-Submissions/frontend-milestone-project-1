@@ -37,6 +37,10 @@ html, body {
   background-color: #090c17;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 /* ------------------------------------------ header */
 
 .container-header {
@@ -149,6 +153,12 @@ html, body {
   }
 }
 
+.spotify-element {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+}
+
 /* ------------------------------------------ audio */
 
 
@@ -205,8 +215,8 @@ html, body {
 
 .container-bio {
     background-color: #101010;
-    margin-top: 5%;
-    padding: 0;
+    margin-top: 20px;
+
     
 }
 
@@ -288,6 +298,21 @@ html, body {
     height: 60vh;
 
     
+}
+
+.btn-tickets {
+  border: 5px solid #fafafa;
+  
+  position: relative;
+  padding: 7px 14px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn-text {
+  position: absolute;
+  bottom: 10%;
+  color: #fafafa;
 }
 
 /* ------------------------------------------ photos */
