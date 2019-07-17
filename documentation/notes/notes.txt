@@ -129,10 +129,13 @@ commit 1b189a71652b4c6ff9325b6bb5d3aa1dbeed39c1
 commit 5b7baece5de10d9a41212b525f73099ca29ae999
 
 ==> Some styling in video section. Will work tomorrow on it further.
+commit 35d7ec9cacf28b72bf3dc625bc82a79e85f6c9c6
 
 
-
-
+17-07-2019
+==> Finished styling video section
+==> Some overall styling in title
+==> Added breakpoints and order to footer
 
 
 

@@ -182,7 +182,6 @@ html, body {
 
 .container-video {
     background-color: #fafafa;
-    padding: 0;
     
 }
 
@@ -191,9 +190,9 @@ html, body {
 }
 
 
+.youtube-video {
+  padding: 10px;
 
-.col-youtube-video {
-    max-width: 40vw;
 }
 
 .col-video-title {
@@ -240,12 +239,20 @@ html, body {
   
 }
 
+.row-bio-title {
+  padding-top: 10px;
+}
+
 /* ------------------------------------------ events */
 
 .container-event {
   background-color: #fafafa;
-  padding: 0;
   
+  
+}
+
+.row-event-title {
+  padding-top: 10px;
 }
 
 .col-event-title {
@@ -293,6 +300,14 @@ html, body {
 
 }
 
+.row-photo-title {
+  padding-top: 10px;
+}
+
+.col-photo-title {
+  margin: 20px 0;
+}
+
 /* ------------------------------------------ footer */
 
 .container-footer {
@@ -300,25 +315,38 @@ html, body {
   
 }
 
+.row-footer-title {
+  padding-top: 10px;
+  
+}
+
+.col-footer-title {
+  margin: 20px 0;
+}
+
 .youtube-icon a {
   color: #bb0000;
+  padding: 15px;
 }
 .instagram-icon a {
   color: #517fa4;
+  padding: 15px;
   
 }
 
 .facebook-icon a {
   color: #3b5998;
+  padding: 15px;
 }
 
 .twitter-icon a {
   color: #00aced;
+  padding: 15px;
 }
 
 .youtube-icon a:hover {
   color: #616161;
-}
+  }
 .instagram-icon a:hover {
   color: #616161;
   
@@ -375,6 +403,7 @@ html, body {
 .bg-image-event {
     width: 100%;
     height: auto;
+    
 }
 
 
