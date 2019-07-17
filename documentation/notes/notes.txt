@@ -145,6 +145,14 @@ commit 1bd02e1e45e80180543c2e9f14a3d946790ac570
 commit 329310c23beebc8838a5c98f186e15c7b07adde2
 
 ==> Added modals to links and set cursor to pointer
+commit 443a9da569e5a96cd49692dd28e48b95ef000368
+
+==> Shortened navbar css
+==> Removed class in video section because not needed
+==> Cleaned up bio classes
+==> Changed color order title photo section
+==> Made h2 bigger
+==> Changed styling event section
 
 
 

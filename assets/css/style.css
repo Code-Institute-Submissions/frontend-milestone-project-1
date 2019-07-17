@@ -45,6 +45,10 @@ html, body {
     cursor: pointer;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
 /* ------------------------------------------ header */
 
 .container-header {
@@ -58,13 +62,7 @@ html, body {
 
 /* ------------------------------------------ navbar */
 
-.navbar {
-  letter-spacing: 2px;
-}
 
-.navbar-text {
-  letter-spacing: 2px;
-}
 
 .navbar-custom {
   background-color:#090c17 !important;
@@ -175,7 +173,6 @@ html, body {
 
 .container-audio {
   background-color: #f5f5f5;
-  margin-top: 0;
   padding: 0;
 
 }
@@ -203,15 +200,16 @@ html, body {
   padding-top: 10px;
 }
 
+.col-video-title {
+  margin: 20px 0;
+}
 
 .youtube-video {
   padding: 10px;
 
 }
 
-.col-video-title {
-  margin: 20px 0;
-}
+
 
 
 /* ------------------------------------------ bio */
@@ -232,17 +230,16 @@ html, body {
     
 }
 
-.col-bio {
-    
-
+.row-bio {
+  padding-top: 10px;
 }
 
-.col-bio-title {
+.col-bio {
   margin: 20px 0;
   padding-left: 15px;
 }
 
-.col-bio-title h2 {
+.col-bio h2 {
 
   padding-left: 15px;
 }
@@ -253,9 +250,7 @@ html, body {
   
 }
 
-.row-bio-title {
-  padding-top: 10px;
-}
+
 
 /* ------------------------------------------ events */
 
@@ -428,11 +423,7 @@ html, body {
   line-height: 1.5;
 }
 
-.bg-image-event {
-    width: 100%;
-    height: auto;
-    
-}
+
 
 
 }
@@ -449,6 +440,12 @@ html, body {
 .sub-title {
   font-size: 2.3em;
   line-height: 1.7;
+}
+
+.bg-image-event {
+    width: 100%;
+    height: auto;
+    
 }
 }
 
