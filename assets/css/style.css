@@ -41,6 +41,10 @@ html, body {
   text-transform: uppercase;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 /* ------------------------------------------ header */
 
 .container-header {
@@ -311,6 +315,7 @@ html, body {
   top: 70%;
   color: #fafafa;
   display: inline-block;
+
 }
 
 /* ------------------------------------------ photos */

@@ -213,7 +213,7 @@
 				</div>
 				
 				<div class="col-md-8 text-center bg-image-event">
-					<div class="btn-text" data-toggle="modal" data-target="#demo-site"><a class="display-4 btn-tickets uppercase">Tickets</a></div
+					<div class="btn-text pointer" data-toggle="modal" data-target="#demo-site"><a class="display-4 btn-tickets uppercase">Tickets</a></div
 					
 				</div>
 			</div>
@@ -302,11 +302,11 @@
 	        	<div class="col-md-4 col-sm-6 col-12 order-1 order-md-3 col-footer-title">
 	        		<h3><span class="font-color-grey letter-spacing-2">Contact</span><span class="font-color-red font-weight-bold letter-spacing-2">.</span></h3>
 	        		<h4>Management</h4>
-	        		<p>Lange Frans<br>
+	        		<p class="pointer" data-toggle="modal" data-target="#demo-site">Lange Frans<br>
 	        			frans@langefrans.nl
 	        		</p><br><br>
 	        		<h4>Boekingen</h4>
-	        		<p>karlijn@tribeboekingen.nl<br>
+	        		<p class="pointer" data-toggle="modal" data-target="#demo-site">karlijn@tribeboekingen.nl<br>
 	        			06 121 82 626
 	        		</p>
 	        	</div>
@@ -320,7 +320,7 @@
 	        					<p class="text-left"></p> Copyright 2019&copy; | Lange Frans&reg; | All rights reserved</p>	
 	        				</div>
 	        				<div class="col-12">
-	        					<p class="text-right" data-toggle="modal" data-target="#demo-site">Disclaimer | Privacy statement</p>
+	        					<p class="text-right pointer" data-toggle="modal" data-target="#demo-site">Disclaimer | Privacy statement</p>
 	        				</div>
 	        			</div>
 	        			
@@ -333,25 +333,26 @@
     </footer>
     <!-- end footer -->
     
-    <!-- modal -->
-<div class="modal fade" id="demo-site" tabindex="-1" role="dialog" aria-labelledby="demo-site-label" aria-hidden="true">
-<div class="modal-dialog" role="document">
-  <div class="modal-content">
-    <div class="modal-header">
-      <h5 class="modal-title" id="demo-site-label">Whoohoo, link is working!</h5>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
-    <div class="modal-body">
-      This is a demo website for educational purposes.
-    </div>
-    <div class="modal-footer">
-      <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-    </div>
-  </div>
-</div>
-</div>
+    <!-- start modal -->
+	<div class="modal fade" id="demo-site" tabindex="-1" role="dialog" aria-labelledby="demo-site-label" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		  <div class="modal-content">
+		    <div class="modal-header">
+		      <h5 class="modal-title" id="demo-site-label">Whoohoo, link is working!</h5>
+		      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		        <span aria-hidden="true">&times;</span>
+		      </button>
+		    </div>
+		    <div class="modal-body">
+		      This is a demo website for educational purposes.
+		    </div>
+		    <div class="modal-footer">
+		      <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<!-- start modal -->
 
     <!-- JavaScript for Bootstrap components -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
