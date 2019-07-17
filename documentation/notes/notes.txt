@@ -139,7 +139,9 @@ commit 0872cdc92ce0e7f86fa3493b864268d67fa20f39
 
 ==> Added spotify logo in header
 ==> Added tickets button in event section
+commit 1bd02e1e45e80180543c2e9f14a3d946790ac570
 
+==> Styled ticket and event column in event section
 
 
 
