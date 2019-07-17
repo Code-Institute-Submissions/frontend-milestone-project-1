@@ -153,6 +153,7 @@ commit 443a9da569e5a96cd49692dd28e48b95ef000368
 ==> Changed color order title photo section
 ==> Made h2 bigger
 ==> Changed styling event section
+==> Resolved issues w3 validator
 
 
 

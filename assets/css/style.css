@@ -347,24 +347,33 @@ h2 {
   margin: 20px 0;
 }
 
+.youtube-icon, 
+.twitter-icon, 
+.instagram-icon,
+.facebook-icon {
+  margin-bottom: 20px;
+}
+
 .youtube-icon a {
   color: #bb0000;
-  padding: 15px;
+  
 }
 .instagram-icon a {
   color: #517fa4;
-  padding: 15px;
+  
   
 }
 
+
 .facebook-icon a {
   color: #3b5998;
-  padding: 15px;
+  
 }
 
 .twitter-icon a {
   color: #00aced;
-  padding: 15px;
+  
+  
 }
 
 .youtube-icon a:hover {
