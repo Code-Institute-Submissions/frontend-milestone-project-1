@@ -154,6 +154,16 @@ commit 443a9da569e5a96cd49692dd28e48b95ef000368
 ==> Made h2 bigger
 ==> Changed styling event section
 ==> Resolved issues w3 validator
+commit 35fea028dff766db4182e09f6830c8754b182e65
+
+18-07-2019
+==> Lined out photo gallery title for all devices
+==> Made Spotify button in header a link
+==> Made social links to open in new window
+==> Added Google Fonts css link 
+==> Made correction of Spotify link within Spotify object footer
+
+
 
 
 
