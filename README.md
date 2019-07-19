@@ -151,14 +151,4 @@ To run the website elsewhere it can be either downloaded on [GitHub](https://git
 * Make more use of Chrome DevTools to work more efficiently
 * Whenever stuck, go literally back to pen and paper and draw or write short pieces of code. It will help to come faster to the solution than staying in the code on the screen.
 
-
-
-
-
-
-
-
-
-
-
-This repo is for educational purposes only. 
+*This repo is for educational purposes only.* 
