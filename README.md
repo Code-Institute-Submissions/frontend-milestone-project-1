@@ -119,7 +119,7 @@ The user stories and related features were tested manually as well. By doing thi
 
 The site is directly deployed from the master branch and hosted on [GitHub pages](https://devricardotubbs.github.io/frontend-milestone-project/index.html). New commits to the master branch will automatically be updated to the deployed version.
 
-To run the website elsewhere it can be either downloaded on [GitHub](https://github.com/DevRicardoTubbs/frontend-milestone-project) or cloned by pasting ‘git clone https://github.com/DevRicardoTubbs/frontend-milestone-project.git’ into your terminal. 
+To run the website elsewhere it can be either downloaded on [GitHub](https://github.com/DevRicardoTubbs/frontend-milestone-project) or cloned by pasting ‘'''git clone https://github.com/DevRicardoTubbs/frontend-milestone-project.git'''’ into your terminal. 
 
 
 
