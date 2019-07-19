@@ -40,15 +40,15 @@ In this section you will find all features and the details of it.
 * The Spotify button in the header allows users to navigate to the Spotify website in a new window
 * From a design perspective the button is only available on screen sizes from 992px width
 
-**Spotify follow widget**
+**Spotify Follow Widget**
 * The Spotify follow widget allows users to follow Lange Frans easily on Spotify
 * Originally this feature was an iframe which is coded to an object to pass the w3 validator test
 
-**SoundCloud music player**
+**SoundCloud Music Player**
 * The SoundCloud’s music player allows users to enable hearing a song without video. Also this feature was a design choice.
 * Originally this feature was an iframe which is coded to an object to pass the w3 validator
 
-**YouTube videos**
+**YouTube Videos**
 * The YouTube feature allows users to watch video clips
 * While integrating this feature Bootstrap’s embedded classes were used
 
@@ -56,19 +56,19 @@ In this section you will find all features and the details of it.
 * The biography feature allows users to read more about Lange Frans’ history.
 * The bio section is made of 2 columns. For design and functional reasons the image of Lange Frans on the left disappears on screen sizes below 992px
 
-**Event section**
+**Event Section**
 * The event feature allows users to see the agenda of upcoming events.
 * This feature has 2 main columns which have a breakdown point on 992px to make it look good at all devices.
 
-**Photo gallery**
+**Photo Gallery**
 * The photo gallery feature allows users to see some photos of Lange Frans
 * For this feature Bootstrap’s img-thumbnail and img-fluid classes were used
 
-**Spotify playlist**
+**Spotify Playlist**
 * The Spotify playlist feature allows users to quickly select a song of there preference
 * Originally this feature was an iframe which is coded to an object to pass the w3 validator
 
-**Social links**
+**Social Links**
 * The social media links allow users to surf quickly to the platform of their choice
 
 **Modal**
