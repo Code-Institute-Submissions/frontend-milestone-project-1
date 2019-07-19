@@ -75,11 +75,11 @@ In this section you will find all features and the details of it.
 **Modal**
 * The modal feature in the code allows me to show the links are working
 
-###Features Left to Implement
+### Features Left to Implement
 * Buy tickets online
 * Purchase albums 
 * Other activities than rapping
-* 
+
 
 ## Technologies Used
 
@@ -107,13 +107,19 @@ The website was tested in several browsers (Chrome, Firefox, Safari and Microsof
 
 The HTML code was tested with the [W3 Validator service](https://validator.w3.org/) and issues, mostly related to some iframes, were solved. One warning relating to a header missing in the audio section I ignored with a reason: for design reasons I don’t need a header and from a coding perspective I want to be consistent in using semantic elements.
 
+The CSS code was tested with the [CSS validator service](https://jigsaw.w3.org/css-validator/). No issues were found.
 
+Testing was a continuous activity during the coding process. In an early stage there was a white space on the right on mobile devices. The solution for solving this issue was found on Stack Overflow in a post of [Rion Williams](https://stackoverflow.com/users/557445/rion-williams).
 
+All external links are opening in a new tab using or have a modal popping up when the link is not available or when it is an email address. These links were tested manually to see if they are working and indeed opening in a new tab.
 
+The user stories and related features were tested manually as well. By doing this at the end of project one more time it came out that I have to do a minor fix in the navigation.
 
+## Deployment
 
+The site is directly deployed from the master branch and hosted on [GitHub pages](https://devricardotubbs.github.io/frontend-milestone-project/index.html). New commits to the master branch will automatically be updated to the deployed version.
 
-
+To run the website elsewhere it can be either downloaded on [GitHub](https://github.com/DevRicardoTubbs/frontend-milestone-project) or cloned by pasting ‘git clone https://github.com/DevRicardoTubbs/frontend-milestone-project.git’ into your terminal. 
 
 
 
