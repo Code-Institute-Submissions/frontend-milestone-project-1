@@ -140,7 +140,7 @@ To run the website elsewhere it can be either downloaded on [GitHub](https://git
 * I appreciated the support of my mentor Brian Macharia 
 * I highly appreciate the fact that Lange Frans sent me a short message saying that he likes the website: ‘Ziet er goed uit ....’.
 
-## Retrospective / learning outcomes
+## Retrospective / Learning Outcomes
 * Make use of one editor (due to time limits on Cloud9 I switched sometimes to Atom) or use git whenever there is a need to switch between a local and remote environment
 * Whenever making a different choice than the original idea or wireframe ask yourself why am I making this change? First ideas/thoughts are usually the best. Dare to challenge yourself.
 * Make more use of Chrome DevTools to work more efficiently
