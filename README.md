@@ -25,7 +25,7 @@ Giving fans and potential fans the ability to see and hear video clips and getti
 * As an event organization I want to know who I can contact for bookings
 * As a journalist I want to know how I can reach the management
 
-The wireframe of the design you may find [here](../blob/master//documentation/User Centric Frontend_CI_v1_05072019.pdf)
+The wireframe of the design you may find [here](https://github.com/DevRicardoTubbs/frontend-milestone-project/blob/master/documentation/User%20Centric%20Frontend_CI_v1_05072019.pdf)
 
 ## Features
 
@@ -86,11 +86,11 @@ In this section you will find all features and the details of it.
 * HTML5 for structuring the website
 * CSS for styling  the website including animation
 * Bootstrap 4.3.1 (including the Javascript, jQuery and Popper.js)
--	Grid
--	Navigation bar
--	Responsiveness 
--	Modal
--	Specific Bootstrap classes 
+    * Grid
+    * Navigation bar
+    * Responsiveness 
+    * Modal
+    * Specific Bootstrap classes 
 * Animate.css for text animation in header 
 * Google Fonts for using the font Source Sans Pro
 * Font Awesome for social icons 
