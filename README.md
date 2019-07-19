@@ -1,18 +1,14 @@
 # Restyle website rapper Lange Frans
----
 
 This is the repository of the frontend only (restyled) website of the Dutch rapper and tv-host Lange Frans. The primary focus of the website is to let fans and potential fans to see and hear video clips and songs and let them know about new music as it becomes available.
 The aim of the website is also to link the target group to Spotify to let the fan base grow there. Another aim is to give information about upcoming events where Lange Frans is on stage.
 Social media is also integrated to give social media platforms like YouTube, Instagram, Facebook and Twitter a presence.
 
 ## Demo
-___
-
 
 A live demo can be found [here](https://devricardotubbs.github.io/frontend-milestone-project/).
 
 ## UX
-___
 
 Giving fans and potential fans the ability to see and hear video clips and getting cohesion with Spotify were top of mind while designing. Therefore I created several user stories:
 
@@ -32,15 +28,89 @@ Giving fans and potential fans the ability to see and hear video clips and getti
 The wireframe of the design you may find [here](../blob/master//documentation/User Centric Frontend_CI_v1_05072019.pdf)
 
 ## Features
-___
+
 
 In this section you will find all features and the details of it.
 
 ### Current features
-___
 
 **Navigation**
-- The mobile friendly Bootstrap navigation bar allows users to have a navigation at all times: a hamburger menu on smaller devices and a one click navigation bar at the top for larger devices.
+* The mobile friendly Bootstrap navigation bar allows users to have a navigation at all times: a hamburger menu on smaller devices and a one click navigation bar at the top for larger devices
+
+**Button to Spotify**
+* The Spotify button in the header allows users to navigate to the Spotify website in a new window
+* From a design perspective the button is only available on screen sizes from 992px width
+
+**Spotify follow widget**
+* The Spotify follow widget allows users to follow Lange Frans easily on Spotify
+* Originally this feature was an iframe which is coded to an object to pass the w3 validator test
+
+**SoundCloud music player**
+* The SoundCloud’s music player allows users to enable hearing a song without video. Also this feature was a design choice.
+* Originally this feature was an iframe which is coded to an object to pass the w3 validator
+
+**YouTube videos**
+* The YouTube feature allows users to watch video clips
+* While integrating this feature Bootstrap’s embedded classes were used
+
+**Biography**
+* The biography feature allows users to read more about Lange Frans’ history.
+* The bio section is made of 2 columns. For design and functional reasons the image of Lange Frans on the left disappears on screen sizes below 992px
+
+**Event section**
+* The event feature allows users to see the agenda of upcoming events.
+* This feature has 2 main columns which have a breakdown point on 992px to make it look good at all devices.
+
+**Photo gallery**
+* The photo gallery feature allows users to see some photos of Lange Frans
+* For this feature Bootstrap’s img-thumbnail and img-fluid classes were used
+
+**Spotify playlist**
+* The Spotify playlist feature allows users to quickly select a song of there preference
+* Originally this feature was an iframe which is coded to an object to pass the w3 validator
+
+**Social links**
+* The social media links allow users to surf quickly to the platform of their choice
+
+**Modal**
+* The modal feature in the code allows me to show the links are working
+
+###Features Left to Implement
+* Buy tickets online
+* Purchase albums 
+* Other activities than rapping
+* 
+
+## Technologies Used
+
+* HTML5 for structuring the website
+* CSS for styling  the website including animation
+* Bootstrap 4.3.1 (including the Javascript, jQuery and Popper.js)
+-	Grid
+-	Navigation bar
+-	Responsiveness 
+-	Modal
+-	Specific Bootstrap classes 
+* Animate.css for text animation in header 
+* Google Fonts for using the font Source Sans Pro
+* Font Awesome for social icons 
+* Cloud9 as an IDE
+* Atom as a fall back editor
+* Git and GitHub for version control
+* [DirtyMarkUp](https://www.10bestdesign.com/dirtymarkup/) for marking up HTML and CSS code 
+* [Mockflow.com](https://www.mockflow.com} for making the wireframe
+* GIMP and inPixio for editing images
+
+## Testing
+
+The website was tested in several browsers (Chrome, Firefox, Safari and Microsoft Edge) and on several mobile/tablet devices (Samsung Galaxy S5, iPhone 5/SE/6/7/8, iPhone 6/7/8 Plus, iPad and iPad Pro).
+
+The HTML code was tested with the [W3 Validator service](https://validator.w3.org/) and issues, mostly related to some iframes, were solved. One warning relating to a header missing in the audio section I ignored with a reason: for design reasons I don’t need a header and from a coding perspective I want to be consistent in using semantic elements.
+
+
+
+
+
 
 
 
