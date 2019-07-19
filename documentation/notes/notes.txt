@@ -162,6 +162,15 @@ commit 35fea028dff766db4182e09f6830c8754b182e65
 ==> Made social links to open in new window
 ==> Added Google Fonts css link 
 ==> Made correction of Spotify link within Spotify object footer
+commit 28209f16f4a3b1ee96cdddfdbe01112b211c0267
+
+==> Did pull request for being able to push previous commit after deleting old files from the repo
+commit 97486fa109fbedccf3c043f8832a1f9f355baff8
+
+19-07-2019
+==> Marked up HTML and CSS code 
+==> Fixed navigation on photos and events
+
 
 
 
