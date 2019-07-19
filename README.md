@@ -119,11 +119,37 @@ The user stories and related features were tested manually as well. By doing thi
 
 The site is directly deployed from the master branch and hosted on [GitHub pages](https://devricardotubbs.github.io/frontend-milestone-project/index.html). New commits to the master branch will automatically be updated to the deployed version.
 
-To run the website elsewhere it can be either downloaded on [GitHub](https://github.com/DevRicardoTubbs/frontend-milestone-project) or cloned by pasting ‘'''git clone https://github.com/DevRicardoTubbs/frontend-milestone-project.git'''’ into your terminal. 
+To run the website elsewhere it can be either downloaded on [GitHub](https://github.com/DevRicardoTubbs/frontend-milestone-project) or cloned by pasting <pre>git clone https://github.com/DevRicardoTubbs/frontend-milestone-project.git</pre> into your terminal. 
 
 
+## Credits
+
+### Content
+* The text in Bio section and contact details were copied from https://www.langefrans.nl 
+
+### Media
+* The photos used in this site were obtained from https://www.langefrans.nl 
+* The Spotify image in the header was obtained from http://ferguson-digital.eu/es/audio-devices-3/digital-internet-radio-i400s-spotify-dab-cd-wi-fi-fm/
 
 
+### Code
+-	The event calendar was made following the example of https://bootsnipp.com/snippets/VgzeR and modified it to my own needs
+-	The favicon code was obtained from https://www.langefrans.nl 
+-	In order to remove white space at right on small devices I used a single line of CSS code which was posted by [Rion Williams](https://stackoverflow.com/users/557445/rion-williams) on Stack Overflow
+
+
+## Acknowledgements
+* I received design inspiration (not code!) for this project from this theme http://epron.rascalsthemes.com/light/. 
+* I highly appreciated the great documentation of Bootstrap
+* [W3schools.com](https://www.w3schools.com) is a great guidance whenever there is a doubt
+* I appreciated the support of my mentor Brian Macharia 
+* I highly appreciate the fact that Lange Frans sent me a short message saying that he likes the website: ‘Ziet er goed uit ....’.
+
+## Retrospective / learning outcomes
+* Make use of one editor (due to time limits on Cloud9 I switched sometimes to Atom) or use git whenever there is a need to switch between a local and remote environment
+* Whenever making a different choice than the original idea or wireframe ask yourself why am I making this change? First ideas/thoughts are usually the best. Dare to challenge yourself.
+* Make more use of Chrome DevTools to work more efficiently
+* Whenever stuck, go literally back to pen and paper and draw or write short pieces of code. It will help to come faster to the solution than staying in the code on the screen.
 
 
 
