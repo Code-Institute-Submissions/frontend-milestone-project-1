@@ -1,4 +1,4 @@
-# Restyle website rapper Lange Frans
+# Restyle Website Rapper Lange Frans
 
 This is the repository of the frontend only (restyled) website of the Dutch rapper and tv-host Lange Frans. The primary focus of the website is to let fans and potential fans to see and hear video clips and songs and let them know about new music as it becomes available.
 The aim of the website is also to link the target group to Spotify to let the fan base grow there. Another aim is to give information about upcoming events where Lange Frans is on stage.
@@ -29,10 +29,9 @@ The wireframe of the design you may find [here](../blob/master//documentation/Us
 
 ## Features
 
-
 In this section you will find all features and the details of it.
 
-### Current features
+### Current Features
 
 **Navigation**
 * The mobile friendly Bootstrap navigation bar allows users to have a navigation at all times: a hamburger menu on smaller devices and a one click navigation bar at the top for larger devices
@@ -80,7 +79,6 @@ In this section you will find all features and the details of it.
 * Purchase albums 
 * Other activities than rapping
 
-
 ## Technologies Used
 
 * HTML5 for structuring the website
@@ -121,7 +119,6 @@ The site is directly deployed from the master branch and hosted on [GitHub pages
 
 To run the website elsewhere it can be either downloaded on [GitHub](https://github.com/DevRicardoTubbs/frontend-milestone-project) or cloned by pasting <pre>git clone https://github.com/DevRicardoTubbs/frontend-milestone-project.git</pre> into your terminal. 
 
-
 ## Credits
 
 ### Content
@@ -131,12 +128,10 @@ To run the website elsewhere it can be either downloaded on [GitHub](https://git
 * The photos used in this site were obtained from https://www.langefrans.nl 
 * The Spotify image in the header was obtained from http://ferguson-digital.eu/es/audio-devices-3/digital-internet-radio-i400s-spotify-dab-cd-wi-fi-fm/
 
-
 ### Code
 -	The event calendar was made following the example of https://bootsnipp.com/snippets/VgzeR and modified it to my own needs
 -	The favicon code was obtained from https://www.langefrans.nl 
 -	In order to remove white space at right on small devices I used a single line of CSS code which was posted by [Rion Williams](https://stackoverflow.com/users/557445/rion-williams) on Stack Overflow
-
 
 ## Acknowledgements
 * I received design inspiration (not code!) for this project from this theme http://epron.rascalsthemes.com/light/. 
